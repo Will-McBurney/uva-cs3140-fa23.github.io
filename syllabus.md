@@ -183,21 +183,11 @@ are considered "fair game" for exams.
 
 ## Gradescope
 
-Every homework assignment will have a document to submit. You will not submit
-any code on Gradescope (your code will be on Github). You will only
-submit PDF documents.
+You will declare your team for each assignment on Gradescope. Team declarations are typically due one week after the assignment is released. Solo submitters must still submit, declaring they are working alone. Anyone who does not submit a team declaration will be required to work alone. 
+
+Every homework assignment will be submited on Gradescope using the "submit via Github" option. Submissions must come from your teams GitHub repository on the class organization.
 
 Exams will be graded on Gradescope.
-
-All regrade requests are handled on Gradescope. Please be aware that
-if a regrade request results in a grade change, it can take up to one
-week for that change to be reflected on Canvas's Gradebook, as syncing
-the Gradebook to Gradescope is a very time-consuming process, and we will
-likely only do it once at the *end* of the regrade request period.
-
-Curved exams scores **will not** appear on Gradescope (Gradescope doesn't
-have a feature for this). Curved Exam Scores will be posted on Canvas
-Usually within 24 hours of Raw Exam Scores being posted on Gradescope.
 
 ## Piazza
 
@@ -212,7 +202,7 @@ We will be using Piazza for the following:
 
 We will not be using Piazza for:
 
-* Any code debugging for *any* reason. All questions for help with your specific code must be in office hours only.
+* Any homework code debugging for *any* reason. All questions for help with your specific code must be in office hours only.
 * Regrades (use Gradescope first, then professor office hours only if not resolved)
 
 ## Email
@@ -221,7 +211,7 @@ We will be using email for the following:
 
 * Personal issues that can and should only be handled by a professor
 
-Your Email subject line should start with "[SDE]" OR "[CS 3140]"
+Your Email subject line should start with "[SDE]"
 
 We will not be using email for:
 
@@ -230,16 +220,15 @@ We will not be using email for:
 * Installation Help (use Piazza or Office Hours)
 * Homework Questions (use Piazza)
 
-_PLEASE_ make sure to put "[SDE]" OR "[CS 3140]" at the beginning of the subject line
-of all emails!  And please be patient with us in 
-responding.  We both receive A LOT of email and it's easy to get behind. 
+_PLEASE_ make sure to put "[SDE]" at the beginning of the subject line
+of all emails!  And please be patient with me in responding. I receive A LOT of email and it's easy to get behind. 
 If there is a time-critical nature to your note, please let us know that 
 as well.
 
 Emails will generally be responded to within the next two *business* days
 (not including weekends or holidays). If you do not hear back within three
 *business* days, please email us again. It's possible your first email was
-missed, we forgot to hit *send*, etc. We are human, we will make mistakes
+missed, I forgot to hit *send*, etc. I am human, I will make mistakes
 in a class this large.
 
 
@@ -285,12 +274,14 @@ from previous assignments. That said, homework assignments may reference previou
 Assignment purpose:
 * HW1 - Thinking about design and responding to change
   * Note that this assignment will have 2 distinct parts
-* HW2 - Testing and clean code 
-* HW3 - Refactoring and Java Streams
-* HW4 - UML Class Diagrams, Three Tier Architecture, Testing with Mockit
-* HW5 - JavaFX GUI
-* HW6 - JSON Parsing and SQL with SQLite
-    * Note that this assignment will have 2 distinct parts
+* HW2 - Unit testing with JUnit, Test Driven Development.
+* HW3 - Design, Refactoring, Java Streams, and Polymorphism
+* HW4 - UML Class Diagrams, Three Tier Architecture, Testing with Mockito, Design patterns
+* HW5 - Data persistence, JSON, SQLite Databases, JDBC
+* HW6 - Final assignment, JavaFX GUI, Hibernate ORM, Design Patterns
+  * Note that this assignment will have 2 distinct parts
+
+All assignments are required, and no homework assignments will be dropped.
 
 On HW2 through HW5, you will be given starter code to work with. This starter code
 will be automatically added to your teams GitHub Repository when you begin the assignment. HW1 and HW6 will have no starter code.
@@ -301,62 +292,78 @@ to deadlines, so students should start early.
 
 ### Assignment Teams
 
-All assignments are designed to be done collaboratively. Assignments have a cap of 3 people.
-Rules on assignment teams:
+All assignments are designed to be done collaboratively. The following outline our rules on assignment teams.
 
-1. You can only work with a specific person on **4 assignments** or less. You may not work with someone on 5 or more assignments.
-2. All team members must join that team's Github repository. All assignment work is committed, shared, and submitted via Github.
-3. Everyone on a given team gets the same grade for their assignment. (See Team concerns below)
-4. Once you have added someone to your team, you cannot remove them **for any reason** for that assignment. 
-5. If someone on your team hasn't contributed, you are encouraged to let the professor know, as well as not work with that person in the future.
-6. You are welcome to work alone or with a smaller group than suggested. However, the assignment requirements will be the same, regardless of group size. Individual programmers will be held to the same expectations as groups.
-7. The instruction staff will not put you on a team, nor will they find a team for you. You are responsible for forming your own teams.
+1. Assignments may be worked on individually *or* in groups of 2 or 3. Groups may not be larger than 3.
+   1. Every team will be required to complete all the requirements for the assignment, regardless of size. The same grading rubric will be applied to groups of 3 as well as people working alone.
+   2. You can only work with a specific person on **4 assignments** or less. You may not work with someone on 5 or more assignments.
+   3. The instruction staff will not put you on a team, nor will they find a team for you. You are responsible for forming your own teams. There will be a pinned post on Piazza to look for teammates, and you are encouraged to come to class and get to know the students around you.
+2. All teams must be declared on Gradescope. 
+   1. The team declaration deadline is typically one week after the assignment is released. 
+   2. You must submit to the declaration assignment on Gradescope even if working alone.
+   3. Late submissions for team declarations will not be accepted **for any reason whatsoever**. 
+   4. If you fail to submit a team declaration by the deadline, you will be required to work alone. **No late team adds, no exceptions.**
+3. All team members must join that team's Github repository on the school GitHub organization.
+   1. You may not work using your own repositories outside of the class organization.
+   2. All assignment work is committed, shared, and pushed to GitHub.
+   3. You submit your GitH
+   4. Once you have added someone to your team, you cannot remove them **for any reason** for that assignment. 
+4. Everyone on a given team gets the same grade for their assignment. 
+5. If someone on your team hasn't contributed, please let the professor know via email the professor 
+   1. with the subject line "[SDE] HWx Group Issues" 
+6. If we find someone has not meaningfully contributed:
+   1. They may lose up to 100% of the points on the assignment. 
+   2. They may be required to work alone on future assignments
+   3. Repeated instances of non-contibution may result in academic honesty penalties up and and including an F in the course.
+   4. This will not affect the grade of the rest of the group. The rest of the group is still expected to have completed the full assignment.
 
-#### Team Declations
 
-All teams must be declared at least **one week before the due date**. To declare your team, you will complete an assignment on Gradescope called **"HWX - Team Declaration"** where X is the number of the assignment. The document simply requires the names and computing IDs of everyone on the team (as well as their Github name). Example:
+#### Team Declarations
+
+To declare your team, you will complete an assignment on Gradescope called **"HWX - Team Declaration"** where X is the number of the assignment. The document simply requires the names and computing IDs of everyone on the team (as well as their Github name). Example:
 
 ```text
-Aaron A Aaronson: abc2def - Aaron2xSon
-Jane Smith: df3ghi - JaneSmith12345
-Sarah Thomas: stu9xyz - ThisIsAGithubAccount
+Aaron A Aaronson, abc2def, Aaron2xSon
+Jane Smith, df3gh, JaneSmith12345
+Sarah Thomas, stu9xyz, ThisIsAGithubAccount
 ```
 
-**Late team submissions will not be accepted for *ANY REASON WHATSOVER* **. If you miss the deadline, you *must* work as an individual! **No Exceptions for ANY REASON!**
+**Late team submissions will not be accepted for *ANY REASON WHATSOVER* **. If you miss the deadline, you *must* work as an individual! **No Exceptions for ANY REASON!** No one will be added to a team late for any reason!
 
 #### Team Concerns
 
-**All team members are expected to contribute working code to every assignment!** If you do not show any meaningful source code commits on GitHub, you may receive the following penalties at the discretion of the professor:
+**All team members are expected to contribute working code to every assignment!** If you do not show any meaningful source code commits on GitHub, or all of your commits were meaningless or even harmful, you may receive the following penalties at the discretion of the professor:
 
 * Zero on the homework assignment (regardless the score of your teammates)
 * You may be required to complete up to all remaining assignments **individually**, meaning you will not be allowed to form a group.
 * In severe cases, you may receive an additional professionalism penalty in the course.
 
-The goal of this class is to leave this class with the programming skills and tools under your belt to succeed in project work. If you do not contribute work
+The goal of this class is to leave this class with the programming skills and tools under your belt to succeed in project work. If you do not contributed meaningful work to your team's code base, then you have not demonstrated that skill set.
 
 ### Advice on Homework
 
-1. It's better to have working code that implements some features than to have non-working code that attempts to implement all features
-2. Submissions that cannot be compiled or executed without crashing **will not receive partial credit**
-3. Start early - in a worst case you'll finish early and have more free time.
-4. Break the assignment into several individual features. 
+1. Don't try to form teams at the last second. In general, you should know who you are working with within a day or two after the assignment is released.
+2. It's better to have working code that implements some features than to have non-working code that attempts to implement all features
+3. Submissions that cannot be compiled or executed without crashing **will not receive partial credit**
+4. Start early - in a worst case you'll finish early and have more free time.
+5. Break the assignment into several individual features. 
    1. Have different people implement each those features in separate classes/files.
    2. Do not have one giant main-class or main-method 
       1. This isn't sustainable for collaborative work
       2. This makes it nearly impossible to test your code effectively
-5. Expect to spend at least half of your time testing and debugging
+6. Expect to spend at least half of your time testing and debugging
    1. You will whether you plan to or not
-6. Commit early and often
+7. Commit early and often
    1. Think of committing like "saving" a file. 
    2. You should commit after each "unit of work" (wrote a function, wrote a test, fixed a bug)
    3. You shouldn't need to push after every commit. Push when you've completed a feature!
-7. Always work in a branch, not in main.
+8. Always work in a branch, not in main.
    1. When you want to add your code to main, merge your branch to main.
-8. Never push code directly to main. 
-9. When fixing a bug, write a test *first*
-   1. The test should fail
-   2. The bug is fixed when the test passes
-10. Never push code you haven't tested/run
+9. Never push code directly to main. 
+10. When fixing a bug, write a test *first*
+    1. The test should fail
+    2. The bug is fixed when the test passes
+11. Never push code you haven't tested/run
     1. Especially right before the deadline!
     2. This has caused many teams to lose substantial points!
 
@@ -378,14 +385,11 @@ Friday, December 8th, at 11:59 p.m. for any reason.
 We will only ever grade your most recent submission (all submissions on Gradescope will include the hash of your commit at the time you submit). We will not grade multiple submissions and give
 you the best score.
 
-Generally, no extension requests will be granted on homework assignments. This is because each assignment is 
-laddered with specific course content. Additionally, new assignments are released when 
-the previous assignment is due, and so you should switch to focus on the new assignment.
+Generally, extension requests will not be granted on homework assignments. Each assignment is laddered with specific course content. Additionally, new assignments are released when  the previous assignment is due, and so you should switch to focus on the new assignment.
 
 If there is a serious issue that requires a prolonged absence, you should contact your professor. 
 However, because all assignments are team-oriented, and work can be shared remotely over Git, 
-extensions are unlikely to be granted for illness.
-
+extensions are unlikely to be granted for short-term illness.
 
 ### Homework collaboration policy
 
@@ -401,11 +405,11 @@ Only the following people may look at your homework code for any reason:
 2. The TAs  
 3. Your team members  
 
-Be aware: this means you **may not publicly post or share any software generated in this class**, including as part of a portfolio, without explicit permission from your professor. Such permission will usually only be given on the final assignment of the semester.
+Be aware: this means you **may not publicly post or share any software generated in this class**, including as part of a portfolio, without explicit permission from your professor. Such permission will usually only be given on the final assignment of the semester. This includes posting your code on a public GitHub, sending your code to perspective employers, etc. If you are found to have posted code online that was later copied by another student, even without your knowledge, this is still a violation of the policy, and both you and the copying student will be penalized equally.
 
 In the case where code is found to have been shared between teams, all teams involved will
 be treated as having violated the academic integrity policy. People who shared their code
-will receive the same penalty as people who received the code.
+will receive the same penalty as people who received the code. 
 
 Acceptable collaboration between teams is allowed. However, as a general rule, all collaboration should be "pencils down". That is, if 
 you are being so specific in your discussion that you feel you need to write something down, you are probably being too specific. You can,
@@ -415,7 +419,7 @@ however, discuss any of the following:
 * External libraries you found helpful.  
 
 All submissions in this course will be checked using cheat detection software. If it is found
-that you shared code, **intentionally or unintentionally** with any member of another team.
+that your team (or any individual on it) submitted code which violates our academic honesty policy, your team will be found responsible.
 
 Ignorance of these rules will not be accepted as a defense for violating them.
 
@@ -433,7 +437,7 @@ If you find you are copying more than 8 lines or so, you should stop. Copying co
 
 #### AI Assistance rules
 
-Use of AI Assistants, like ChatGPT, Copilot, etc., is allowed **only in limited circumstances**. The rules are the same as StackOverflow - you may copy small snippets of code (typically small functions, etc.). You may not copy an entire class from an AI tool, and you should never copy more than 6 or so lines of code at a time. Copying code from any external source for significant portions of the assignment is considered academic dishonesty, and will be treated as such.
+Use of AI Assistants, like ChatGPT, Copilot, etc., is allowed **only in limited circumstances**. The rules are the same as StackOverflow - you may copy small snippets of code (typically small functions, etc.). You may not copy an entire class from an AI tool, and you should never copy more than 8 or so lines of code at a time. Copying code from any external source for significant portions of the assignment is considered academic dishonesty, and will be treated as such.
 
 **All AI tool use must be cited in your code comments!!!** (See below)
 
@@ -464,7 +468,7 @@ If using an AI assistant, you must cite as follows:
 //  Prompt: The *exact* prompt you used.
 ```
 
-**Forgetting to cite your code with your sources** is not a defense against an academic
+Forgetting to cite your code with your sources is not a defense against an academic
 integrity violation, and will not be accepted as such. Ignorance of the rules
 will not be accepted as a defense for violating them.
 
@@ -477,7 +481,7 @@ If it is found your submission violates our policies outline above, you will rec
 * F in the course
 * Referral to Student Honor
 
-In general, a second offense will *always* result in an F in the course and a referral to Honor, regardless of severity. If any member of your group violates our academic honesty policies, the entire group will be considered to have violated the policy. Generally, all members of the group could face the same penalties.
+In general, a second offense will *always* result in an F in the course and a referral to Student Honor, regardless of severity. If any member of your group violates our academic honesty policies, the entire group will be considered to have violated the policy.
 
 ## Quizzes
 
@@ -529,17 +533,15 @@ Exams are **in-person**, closed note, closed book, closed laptop, pencil and pap
 
 Exams are **in-person**, closed note, closed book, closed laptop, pencil and paper. 
 Those with extended time or other accommodations should contact your professor to 
-discuss them during the first two weeks of the class.
+discuss them during the first two weeks of the class. For logistics reasons, those with extended time/alternative test room accommodations need to schedule those exams with SDAC. You should schedule them *now* (at the start of the semester!). Do not wait!
 
 Make-up exams due to known conflicts must be scheduled **at least one full calendar week in
 advance**.
 
-If you are unable to attend an exam
-
 ### Exam Curves
 
 The exams may be curved at the sole discretion of the professor. The exact
-nature of the curve (if present)) will be determined after the exam is graded. The curve will not benefit
+nature of the curve (if present) will be determined after the exam is graded. The curve will not benefit
 all students equally. Generally, the curving method used benefit scores closer to the average
 more than it will benefit those whose scores are significantly above or below average.
 
@@ -552,14 +554,14 @@ The curve does not exist to artificially inflate scores.
 The curved scores will be posted on Canvas (not Gradescope) usually within 24 hours of the raw
 exam scores being posted.
 
-Regrade requests on Exams that result in points changes will be reflected in the curved scores
+Regrade requests on Exams that result in points changes will eventually be reflected in the curved scores
 on Canvas. **However, it may take up to one week for curved scores to be updated.**
 
 ## Regrade Requests
 
 Regrade Requests can be submitted on Gradescope within one week of an assignment's scores
 being posted. Regrade requests cannot be accepted for any reason after the regrade request
-deadline.
+deadline. The course staff **will not revisit old assignments at the end of the semester**, even if it would bump you up a letter grade. 
 
 Regrade requests are for when **the existing rubric was applied incorrectly**. The following
 will be considered frivolous regrade requests and will be rejected without further consideration:
@@ -568,20 +570,20 @@ will be considered frivolous regrade requests and will be rejected without furth
 * Arguing for partial credit when your submitted code does not compile or run without crashing
 * Asking for additional points to reach a grade threshold
 
-Repeated frivolous regrade request will result in:
+Repeated frivolous regrade request will result in (at the discretion of the professor):
 * All future regrade requests being declined without examination
 * A professionalism deduction to your final grade
 
-Regrade requests can result in your **entire assignment** being regraded. If,
+Regrade requests may result in your **entire assignment** being regraded. If,
 for example, during a regrade request, you find you should have received a deduction
-and you mistakenly did not, a regrade request could result in you losing points. 
+but you mistakenly did not, a regrade request could result in you losing points. 
 
 Regrade requests should be written **professionally and respectfully**. Understand that
 with a class of several hundred students, there *will* be grading errors. None of the
 course staff are trying to make errors, however they will happen. Regrade requests should
-explain how you feel the existing rubric was applied wrong in a calm and respectful tone.
+explain how you feel the existing rubric was applied incorrectly in a calm and respectful tone.
 Insults, profanity, and unprofessional language will result in a professionalism deduction
-to your final course grade, and your regrade request being declined.
+to your final course grade, and your regrade request being declined without further review.
 
 
 ---
@@ -601,14 +603,14 @@ to your final course grade, and your regrade request being declined.
   * Recordings may lose audio when the speaker needs to walk away from the microphone
   * Recordings that are corrupted or missing are unlikely to be replaced
   * Recordings are not an alternative to attending class, and this class is not meant to be taken remotely
-* If attendance dips considerably, lectures may no longer be recorded. You will get at least one day's notice if I choose to stop recording lectures
+* If on a given day attendance for both sections combined is below 50%, that lecture's recording will not be uploaded. 
+* Lecture recordings are not an alternative to attending class, and are intended for review/reference. You will not learn effectively without participation and engagement!
 
 ## This Syllabus
 
 This syllabus is to be considered a reference document that can and will be adjusted 
 through the course of the semester to address changing needs. This syllabus can be 
-changed at any time. Significant changes will be announced. It is up to the student to monitor 
-this page and their announcements for any changes. 
+changed at any time. Significant changes will be announced via daily announcements in class and on Canvas. It is up to the student to monitor this page and their announcements for any changes. 
 Final authority on any decision in this course rests with the professor, not with this document.
 
 ## Professionalism
@@ -622,7 +624,7 @@ In this course, there will be a focus on working well together and learning abou
 * Not participating in work with your partners (such as no commits, missing scheduled meetings, etc.)
 * Unauthorized collaborating with other teams
 
-Students can and will be penalized for unprofessional behavior with deductions to their final grade. The deductions can be up to and including 100% in the class.
+Students can and will be penalized for unprofessional behavior with deductions to their final grade. The deductions can be up to and including 100% in the class at the sole discretion of the course professor.
 
 ## Academic Integrity
 {: .no_toc }
