@@ -10,7 +10,11 @@ Times are subject to change week-to-week.
 
 TA Office Hours will be announced by the time Homework 1 is posted.
 
-Professor Office Hours are in their offices (Prof. McBurney 404 Rice)
+Professor Office Hours (Rice 404)
+
+* Mondays 1 to 4 p.m.
+* Tuesdays 10 to 11 a.m.
+* Wednesdays 10 a.m to Noon     
 
 Schedule forthcoming.
 
