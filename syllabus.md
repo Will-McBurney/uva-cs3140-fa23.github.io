@@ -509,16 +509,17 @@ There will be two non-cumulative midterms during the course.
 
 If you know you will be absent for an exam, you must let your professor know with at least **1-week's notice**. 
 
+You must attend the exam for your **registered** section. Your exam submission will not be graded if you take the exam in the wrong session, unless you have received explicit permission from the course professor.
+
 ### Cumulative Final Exam
 
 The course final exam is cumulative, covering all material from the semester. There will be an emphasis on material covered after Midterm 2, but all content from the course is considered "fair game."
 
 The final exams scheduled for:
 
-* **12:30 p.m. Section 001:** Friday, December 8, 2-5p.m.  
-* **02:00 p.m. Section 002:** Thursday, December 14, 9a.m. to 12 noon
+*Both sections** 
+**Monday, December 11, 7pm - 10pm**
 
-**You must attend the section you are registered for**. Any requests to take the final exam with a different section will be denied regardless of the reason. If you attend the wrong final exam section, your final exam will be given a zero.
 
 UVA has strict final exam policies. As such, we cannot grant make-ups or alternative exam time without explicitly permission from and notification to a Dean. As such, we will not give a make-up exam for the following under **any circumstances**:
 
